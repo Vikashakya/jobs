@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <link rel="icon" href="jobs.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="jobs.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>T-10 Jobs</title>
+    <style>
+     
+
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5636e7;
+  padding: 1rem;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px; 
+}
+
+.header-title h1 {
+  color: #fff;
+  margin-left: 10px;
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+.sec{
+  background-color: rgb(253, 246, 235);
+  display: flex;
+}
+.pas{
+  
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  max-width: 800px;
+  margin-bottom: 10px;
+  
+}
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-list a:hover {
+  background-color: #555;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+          <div class="logo">
+              <img src="jobs.png" alt="Website Icon">
+          </div>
+          <div class="header-title">
+              <h1>T-10 Jobs</h1>
+          </div>
+          <nav>
+              <ul class="nav-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <main>
+      <section class="sec">
+         <div class ="pas">
+           <div id="root"></div>
+         </div>
+      </section>
+  </main>
+  <footer>
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+    
+    
+</html>
